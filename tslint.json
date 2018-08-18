@@ -1,6 +1,6 @@
 {
     "rules": {
-        "class-name": true,
+        
         "comment-format": [
             true,
             "check-space"
@@ -25,15 +25,6 @@
             "always",
             "ignore-bound-class-methods"
         ],
-        "whitespace": [
-            true,
-            "check-branch",
-            "check-decl",
-            "check-operator",
-            "check-module",
-            "check-separator",
-            "check-type"
-        ],
         "typedef-whitespace": [
             true,
             {
@@ -53,7 +44,6 @@
         ],
         "no-internal-module": true,
         "no-trailing-whitespace": true,
-        "no-null-keyword": true,
         "prefer-const": true,
         "jsdoc-format": true
     }
